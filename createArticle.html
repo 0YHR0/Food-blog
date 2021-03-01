@@ -1,0 +1,69 @@
+<!--reference the alert css-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<link href="toastr/build/toastr.min.css" rel="stylesheet"/>
+<script src="toastr/build/toastr.min.js"></script>
+<html>
+<head>
+    <title>Create your new Article</title>
+    <meta http-equiv="Content-Type" content="text/html";charset="utf-8"/>
+    <!--reference the rich text editor-->
+    <script type="text/javascript" charset="UTF-8" src="ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="ueditor/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="UTF-8" src="ueditor/lang/en/en.js"></script>
+    <style type="text/css">
+        div{
+            width:100%;
+        }
+    </style>
+</head>
+<body background="img/articleBack .jpg" title="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E7%BE%8E%E9%A3%9F%20%E8%83%8C%E6%99%AF&step_word=&hs=2&pn=1&spn=0&di=91520&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=2310965880%2C2800460962&os=4249644292%2C2737264578&simid=3919891109%2C466671934&adpicid=0&lpn=0&ln=1943&fr=&fmq=1612544550294_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%3A%2F%2Fpic.51yuansu.com%2Fbackgd%2Fcover%2F00%2F04%2F18%2F5b5edea9d82b4.jpg!%2Ffw%2F780%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue%26refer%3Dhttp%3A%2F%2Fpic.51yuansu.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1615136819%26t%3D4111147b15d19467803d7c01298b572c&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bc8y7wgf7_z%26e3Bv54AzdH3Fk2AzdH3Fee6se4h2hg_z%26e3Bip4s&gsm=2&rpstart=0&rpnum=0&islist=&querylist=&force=undefined">
+<div id='contentPan'>
+	<h1 style="font-family: 'century gothic';color:cornflowerblue">Create your new Article here</h1>
+	<div id="title">
+		<h2>Title:</h2><textarea id="titleSpace"></textarea>
+	</div>
+    <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
+</div>
+<br>
+<script src="js/createArticle.js" defer></script>
+
+<div id = 'categorydiv'>
+	<h2>Please choose the category:</h2><select id = 'category'>
+  <option value ="cate1">ChineseCuisine</option>
+  <option value ="cate2">JapaneseCuisine</option>
+  <option value="cate3">EuropeanCuisine</option>
+  <option value="cate4">KoreanCuisine</option>
+  <option value="cate5">SouthesatAsiaCuisine</option>
+  <option value="cate6">CantoneseCuisine</option>
+</select>
+</div>
+
+<br><div id='costdiv'>
+	
+		<h2>Input average cost per person:</h2><input id = 'avgcost' type="number" min='1' max='99999' />
+	
+</div>
+
+
+
+<br><div id = 'rate'>
+	<h2>Please rate the restaurant:</h2>
+<select id = 'rating'>
+  <option value ="1">1</option>
+  <option value ="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+</div>
+
+<br><h2>Input the restaurant Name and location:</h2>
+<div id = 'restaurantdiv'>
+	<input id='restaurant' type="text" />
+</div><br>
+<div id = 'save'>
+	<button id='sub' class="button">Submit</button>
+</div>
+</body>
+<link rel="stylesheet" href="css/create.css" />
+</html>

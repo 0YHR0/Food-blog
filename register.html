@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<script src="js/jquery-2.1.4.min.js"></script>
+<link href="toastr/build/toastr.min.css" rel="stylesheet"/>
+<script src="toastr/build/toastr.min.js"></script>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+</head>
+<body style=" background: linear-gradient(to right,black 0%,black 30%,white 30%,white 100%);">
+	<!--div to greet-->
+<div class="intro">
+	<pre style="color:palevioletred; font-size: 40px;font-family: 'arial rounded mt bold';">
+		
+		
+	  Hello!
+	</pre>
+	<pre style="color:antiquewhite; font-size: 40px;font-family:'century gothic'">
+    Hope you find
+	
+    joyness and 
+	
+    satisfication
+	
+     here!
+		
+	</pre>
+</div>
+<!--div to register-->
+<div style="position:absolute;left:35%;top:23%;"class="right" >
+	<pre style="font-family: 'arial black';font-size: 35px;">Welcome to FOOD BLOG!Please register.</pre>
+
+  <br><br><input class="reg" type="text" id="username" name="username" placeholder="Define your nickname" required size="30"/><br>
+   <div class="input_block">
+		<img id="img"  style = "                
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        margin-left: 330px;
+    	margin-top: 40px;" src="img/eyeOpen.png">
+		 
+	<br><br><input class="reg" type="password" id="password" placeholder="Set your password" required size="30"/>
+	<label style="color: red;">*Must contain digit,letter and symbols(~!@#$%^&*),length from 8-16</label>
+   </div>
+  <br><br>
+  <input class="reg" type="password" id="password2" name="password2" required size="30" placeholder="Please type in the password again."/><br>
+  <br><br><button class="button" id="registerDone">Register</button>
+  <button class="button" id="back" onclick="window.open('index.html');">Back to homepage</button>
+
+</div>
+</body>
+<script src="js/register.js"></script>
+<link rel="stylesheet" href="css/register.css" />
+</html>

@@ -1,0 +1,45 @@
+a:link{
+color: black;
+font-size: 30px;
+}
+
+a:visited{
+color: blueviolet;
+}
+
+a:active{
+color:dodgerblue ;
+}
+
+a:hover{
+color:black;
+}
+a{
+
+	color:dodgerblue;
+	font-size:30px;
+}
+#label{
+	font-size: 40px;
+	font-family: "century gothic";
+	color:cadetblue;
+	background-color: yellow;
+}
+#label2{
+	font-size: 30px;
+	color:black;
+}
+#home{
+	font-size:15px;
+	color:antiquewhite;
+	text-align: center;
+	font-family: "century gothic";
+	border-radius: 20px;
+	background:cornflowerblue;
+	width:300px;
+	height:40px;
+	border:none;
+}
+#home:hover{
+	background: lightblue;
+}

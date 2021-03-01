@@ -1,0 +1,24 @@
+#rNumber{
+	font-family: "book antiqua";
+	font-size:40px;
+	color:red;
+}
+a:link{
+color: cornflowerblue;
+font-size: 25px;
+}
+
+a:visited{
+color: dodgerblue;
+}
+
+a:active{
+color:dodgerblue ;
+}
+
+a:hover{
+color: darkslateblue;
+}
+#ref{
+	color:blue;
+}

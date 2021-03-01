@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    	<link rel="stylesheet" href="css/index.css" />
+	<head>
+		<meta charset="UTF-8">
+		<title>Food Blog</title>
+	</head>
+	<body background="img/articleBack .jpg" title="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E7%BE%8E%E9%A3%9F%20%E8%83%8C%E6%99%AF&step_word=&hs=2&pn=1&spn=0&di=91520&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=2310965880%2C2800460962&os=4249644292%2C2737264578&simid=3919891109%2C466671934&adpicid=0&lpn=0&ln=1943&fr=&fmq=1612544550294_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%3A%2F%2Fpic.51yuansu.com%2Fbackgd%2Fcover%2F00%2F04%2F18%2F5b5edea9d82b4.jpg!%2Ffw%2F780%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue%26refer%3Dhttp%3A%2F%2Fpic.51yuansu.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1615136819%26t%3D4111147b15d19467803d7c01298b572c&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bc8y7wgf7_z%26e3Bv54AzdH3Fk2AzdH3Fee6se4h2hg_z%26e3Bip4s&gsm=2&rpstart=0&rpnum=0&islist=&querylist=&force=undefined">
+		
+		<!--reference to show locations of all the current visitors-->
+<div style="width: 300px; position:absolute;left:70% ;top:14%;">
+			<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5giopwlldv4&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=times_new_roman&amp;l=33" async="async"></script>
+</div>
+		
+<!--div to show log in and homepage-->
+
+<div class="topleft" style="background: black;" >
+<a href="index.html" id="home">
+	<img id="homeimg" src="img/homegage.png"  style="width:40px;height:40px;">
+</a>
+<a href="login.html" id="login">
+<img id="logInImg" src="img/noLog.png"  style="width:40px;height:40px;">
+</a>
+<!--div to show the already login and three new functions after login-->
+<div id="logInAlready" style="display:none;">
+<ul class="nav" style="background:orange;position: absolute;top:5%;left:0%;">
+        
+        <li class="drop-down"><a href="#">
+        <img id="alreadyLog" src="img/alreadyLog.png"  style="width:40px;height:40px; ">
+        </a>
+             <ul class="drop-down-content">
+                 <li><a href="favoriteList.html">Favorite List</a></li>
+                 <li><a id="selfArticle" class="ref" >self Article</a></li>
+                 <li><a id="logout" class="ref">Logout</a></li>
+               
+            </ul>
+             </li>
+
+    </ul>
+</div>
+</div> 
+<!--div to search-->
+<div class="searchdiv">
+<input id="search" type="search" onkeydown = "if (event.keyCode == 13) document.getElementById('searchDone').click();" placeholder="What are you looking for?" style="size:300;height:70px;width:550px; "/><button id = "searchDone" style="display: none;" >Search</button>
+</div>
+<pre style="font-size:60px;font-family:'book antiqua';text-align:center;color:royalblue; position:absolute;top:40%;left:5%; "><i><b>Start a journey of food exploration and recording</b></i></pre>
+<pre style="font-size:30px;font-family:'book antiqua';text-align:center;color:royalblue; position:absolute;top:60%;left:25%; "><i><b>You can find and create massive food blogs here!</b></i></pre>
+<!--div to create new article-->
+<div class="newArticle">
+<button id="newArticle">Create your blog!</button>
+</div>
+<script type="text/javascript" src="js/main.js" defer></script>
+
+		
+	</body>
+
+	
+</html>

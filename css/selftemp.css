@@ -1,0 +1,44 @@
+a:link{
+color: black;
+font-size: 25px;
+}
+
+a:visited{
+color: dodgerblue;
+}
+
+a:active{
+color:dodgerblue ;
+}
+
+a:hover{
+color: darkslateblue;
+}
+.delete{
+	font-size:15px;
+	color:antiquewhite;
+	text-align: center;
+	font-family: "century gothic";
+	border-radius: 20px;
+	background:cornflowerblue;
+	width:130px;
+	height:40px;
+	border:none;
+}
+.delete:hover{
+	background: lightblue;
+}
+.modify{
+	font-size:15px;
+	color:antiquewhite;
+	text-align: center;
+	font-family: "century gothic";
+	border-radius: 20px;
+	background:cornflowerblue;
+	width:130px;
+	height:40px;
+	border:none;
+}
+.modify:hover{
+	background: lightblue;
+}

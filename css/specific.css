@@ -1,0 +1,27 @@
+.button{
+	font-size:15px;
+	color:antiquewhite;
+	text-align: center;
+	font-family: "century gothic";
+	border-radius: 20px;
+	background:cornflowerblue;
+	width:300px;
+	height:40px;
+	border:none;
+}
+.button:hover{
+	background: lightblue;
+}
+toastr.options = {
+  "closeButton": true,
+  "debug": false,
+  "positionClass": "toast-top-right",
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--<script src="./assets/js/jquery-2.1.4.min.js"></script>-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<link href="toastr/build/toastr.min.css" rel="stylesheet"/>
+<script src="toastr/build/toastr.min.js"></script>
+<script type="text/javascript">
+    toastr.options = {
+        closeButton: true, 
+        debug: false, 
+        progressBar: false,
+        positionClass: "toast-top-center",
+        onclick: null,
+        showDuration: "300",
+        hideDuration: "1000",
+        timeOut: "2000", 
+        extendedTimeOut: "1000", 
+        showEasing: "swing", 
+        hideEasing: "linear", 
+        showMethod: "fadeIn", 
+        hideMethod: "fadeOut" 
+    };
+</script>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Log in</title>
+</head>
+<body style=" background: linear-gradient(to right,black 0%,black 30%,white 30%,white 100%);">
+	<!--div to show the greet message when login-->
+<div class="intro">
+	<pre style="color:palevioletred; font-size: 40px;font-family: 'arial rounded mt bold';">
+		
+		
+	  Hello!
+	</pre>
+	<pre style="color:antiquewhite; font-size: 40px;font-family:'century gothic'">
+    Hope you find
+	
+    joyness and 
+	
+    satisfication
+	
+     here!
+		
+	</pre>
+	
+</div>
+<!--div to login-->
+<div style="position:absolute;left:35%;top:23%;"class="left" >
+<pre style="font-family: 'arial black';font-size: 35px;">Welcome to FOOD BLOG!Please log in.</pre>
+	
+	
+<a href="register.html" id="rLink">If you have not registerd, please register first.</a><br>
+ <br><br><input class="login" type="text" id="username" name="username" placeholder="Please input your username" required size="30"/><br>
+  <div class="input_block">
+  <img id="img"  style = "                
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        margin-left: 340px;
+     margin-top: 45px;" src="img/eyeOpen.png">
+  <br><br><input class="login" type="password" id="input" placeholder="Please input your Password" required size="30"/>
+ </div>
+
+<br><br><button class="button" id = 'submit'>Log in</button>
+<button class="button" id = 'back' onclick="window.open('index.html');">Back to Homepage</button>
+
+
+</div>
+</body>
+<script src="js/login.js" defer></script>
+
+<link rel="stylesheet" href="css/login.css" />
+</html>
